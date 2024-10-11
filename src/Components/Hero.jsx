@@ -23,19 +23,19 @@ const Hero = () => {
             {/* First Slide */}
             <div className="w-full h-[60vh] md:h-screen bg-white">
                 <div className="flex flex-col md:flex-row h-full items-center justify-between md:gap-20 w-full mx-0 px-0">
-                    <div className="">
-                        <div className="text-left md:text-left md:p-8 relative md:left-10 top-10 py-28 px-10">
-                            <h1 className="text-[20px] md:text-[32px] text-[#212121] font-medium font-inter md:w-[480px] md:leading-[51.2px]">
-                                SINC Partners is a service incubation company
-                            </h1>
-                            <p className="md:text-[24px] text-[20px] text-[#212121] font-inter font-normal text-gray-800 w-[354px] h-[171px] md:w-[491px] mt-2 md:leading-[34.4px]">
-                                Connecting experts in product development and growth marketing willing to offer their services to amazing startups in exchange for minute equity (usually 0.5% to 2%).
-                            </p>
-                            <button className="bg-[#303030] font-inter font-medium text-white py-2 px-6 mt-6 md:mt-10 rounded-full">
-                                Sinc With Us
-                            </button>
-                        </div>
+
+                    <div className="text-left md:text-left md:p-8 relative md:left-10 top-4 py-20 px-10">
+                        <h1 className="text-[20px] md:text-[32px] text-[#212121] font-medium font-inter md:w-[480px] md:leading-[51.2px]">
+                            SINC Partners is a service incubation company
+                        </h1>
+                        <p className="md:text-[24px] text-[20px] text-[#212121] font-inter font-normal text-gray-800 w-[354px] h-[171px] md:w-[491px] mt-2 md:leading-[34.4px]">
+                            Connecting experts in product development and growth marketing willing to offer their services to amazing startups in exchange for minute equity (usually 0.5% to 2%).
+                        </p>
+                        <button className="bg-[#303030] font-inter font-medium text-white py-2 px-6 mt-6 md:mt-10 rounded-full">
+                            Sinc With Us
+                        </button>
                     </div>
+
                     <div className="w-full h-screen hidden md:block">
                         <img
                             src={image}
