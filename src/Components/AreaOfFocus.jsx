@@ -2,7 +2,7 @@ import React from 'react'
 
 const AreaOfFocus = () => {
     return (
-        <div className='relative md:top-40 -top-40 md:px-20 px-8'>
+        <div className='relative md:top-40 -top-20 md:px-20'>
             <h1 className='text-center md:text-5xl text-[20px] font-medium font-inter'>Our Area of Focus</h1>
             <p className='text-center md:text-[17px] text-[15px] text-[#4E4E4E] font-inter m-auto mt-8 md:w-[920px] w-[354px] md:h-[72px] leading-[23.8px]'>In our quest to help make success available to everyone, we have initial strategic direction to focus on these five (5) key areas at the lab</p>
             <div className='md:flex block justify-center py-20 '>
