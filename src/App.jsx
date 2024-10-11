@@ -3,7 +3,7 @@ import Hero from "./Components/Hero"
 import About from "./Components/About"
 import AreaOfFocus from "./Components/AreaOfFocus"
 import Concept from "./Components/Concept"
-import Services from "./components/Services"
+import Services from "./Components/Services"
 import Footer from "./Components/Footer"
 
 
