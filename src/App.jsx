@@ -4,6 +4,7 @@ import About from "./Components/About"
 import AreaOfFocus from "./Components/AreaOfFocus"
 import Concept from "./Components/Concept"
 import Services from "./components/Services"
+import Footer from "./Components/Footer"
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <AreaOfFocus />
       <Concept />
       <Services />
+      <Footer />
     </div>
   )
 }
