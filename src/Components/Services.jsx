@@ -19,7 +19,7 @@ const Services = () => {
   };
 
   return (
-    <div className='relative md:top-40 -top-48'>
+    <div className='relative md:top-40 -top-10'>
 
       <h1 className='text-center font-medium font-inter md:text-[56px] text-[20px]'>Our Service Incubation Model</h1>
       <p className='text-center text-[15px] w-[354px] m-auto py-4 max-w-full sm:w-[90%] lg:w-[70%]'>
