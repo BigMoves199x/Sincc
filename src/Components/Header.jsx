@@ -17,7 +17,7 @@ const Header = () => {
                     <div className='md:w-28 w-[72px] h-[40px]'>
                         <img src={sinclogo} alt="Sinc Logo" />
                     </div>
-                    <IoMenuOutline size={24} className='md:hidden ml-60 mt-2'/>
+                    <IoMenuOutline size={24} className='md:hidden ml-[200px] mt-2'/>
 
                     {/* About Dropdown */}
                     <div>

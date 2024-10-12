@@ -51,7 +51,7 @@ import Frame48 from '../assets/Frame48.png'
 
 const Portfolio = () => {
   return (
-    <div className='relative md:top-[200px] -top-28'>
+    <div className='relative md:top-[200px] -top-10'>
       <h1 className='text-center font-inter font-medium md:text-[60px] text-[20px]'>Our Studio Portfolio</h1>
       <p className='text-center text-[14px]'>Our 2024 Service Incubator Portfolio Companies</p>
 

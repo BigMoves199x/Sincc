@@ -27,18 +27,21 @@ const Join = () => {
                 breakpoint: 1024, // Adjust based on your large screen breakpoint
                 settings: {
                     slidesToShow: 3, // 3 cards for larger screens
+                    dots: false,
                 }
             },
             {
                 breakpoint: 768, // Medium screen breakpoint (e.g., tablets)
                 settings: {
                     slidesToShow: 2, // Show 2 cards on medium screens
+                    dots: true,
                 }
             },
             {
                 breakpoint: 640, // Small screen breakpoint (e.g., mobile)
                 settings: {
                     slidesToShow: 1, // Show 1 card per screen on small devices
+                    dots: true,
                 }
             }
         ]
@@ -73,7 +76,7 @@ const Join = () => {
     ];
 
     return (
-        <div className='relative md:top-60 -top-20 px-4'>
+        <div className='relative md:top-60 -top-0 px-4'>
             <h1 className='md:m-auto flex item-center text-center font-medium w-full md:w-[911px] h-[134px] font-inter md:text-[56px] hidden md:block'>
                 Join Our Entrepreneur In Residence (EIR) Program
             </h1>
@@ -117,7 +120,7 @@ const Join = () => {
                     className='border-[1px] border-[#4D4D4D] w-[66px] h-[66px] rounded-full flex justify-center items-center cursor-pointer'
                     onClick={() => sliderRef.current.slickPrev()} // Move to previous slide
                 >
-                    <img src={vector} alt="Previous" />
+                    <img src={Vector} alt="Previous" />
                 </div>
 
                 {/* Next Button */}
@@ -125,7 +128,7 @@ const Join = () => {
                     className='border-[1px] border-[#4D4D4D] w-[66px] h-[66px] rounded-full flex justify-center items-center cursor-pointer'
                     onClick={() => sliderRef.current.slickNext()} // Move to next slide
                 >
-                    <img src={vector} alt="Next" className='rotate-180' />
+                    <img src={Vector} alt="Next" className='rotate-180' />
                 </div>
             </div>
         </div>

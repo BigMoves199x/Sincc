@@ -2,7 +2,7 @@ import React from 'react';
 
 const Investors = () => {
     return (
-        <div className='relative md:top-64 -top-20'>
+        <div className='relative md:top-64 top-4'>
             <h1 className='text-center font-medium font-inter text-[20px] md:text-[56px]'>
                 SINC Investors Network
             </h1>

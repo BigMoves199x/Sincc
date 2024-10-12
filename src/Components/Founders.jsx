@@ -6,10 +6,10 @@ import down from '../assets/down.png'
 
 const Founders = () => {
     return (
-        <div className='relative md:top-60 -top-20 md:overflow-x-hidden'>
+        <div className='relative md:top-60 -top-0 md:overflow-x-hidden'>
 
             <h1 className='text-center font-medium font-inter md:text-[56px] text-[20px]'>Co-found With Us</h1>
-            <p className='text-center w-[354px] h-[63px] text-[15px] m-auto py-4 max-w-full '>
+            <p className='text-center mx-auto w-auto max-w-[344px] h-auto text-[15px] py-4'>
                 We seek to collaborate with visionary individuals who are solving similar problems of helping entrepreneurs succeed
             </p>
 
@@ -26,7 +26,7 @@ const Founders = () => {
                             </div>
 
                             <h1 className='text-[20px] font-inter font-medium'>We Ideate</h1>
-                            <p className='font-inter font-normal py-4 w-[340px] h-[132px] text-[16px] text-[#4E4E4E] leading-[22px]'>
+                            <p className='font-inter py-4 font-normal w-full max-w-[340px] h-auto text-[14px] md:text-[16px] text-[#4E4E4E] leading-[20px] md:leading-[22px]'>
                                 We internally generate concepts and ideas that help solve problems in our thesis areas, after which we proceed to develop a nano/micro MVP (usually having as low as 30 functions to as high as 100 functions) of the product that we take to the market.
                             </p>
                         </div>
@@ -36,13 +36,11 @@ const Founders = () => {
                         <div className='p-4'>
                             <div className='relative'>
                                 <img src={Ellipse2} alt="" className='mb-2' />
-                                <h1 className='absolute top-[11px] left-[23px] text-white text-2xl'>
-                                    2
-                                </h1>
+                                <h1 className='absolute top-[11px] left-[23px] text-white text-2xl'>2</h1>
                             </div>
 
-                            <h1 className='text-[20px] font-inter font-medium'>You Validate</h1>
-                            <p className='font-inter py-4 font-normal w-[340px] h-[132px] text-[16px] text-[#4E4E4E] leading-[22px]'>
+                            <h1 className='text-[18px] md:text-[20px] font-inter font-medium'>You Validate</h1>
+                            <p className='font-inter py-4 font-normal w-full max-w-[340px] h-auto text-[14px] md:text-[16px] text-[#4E4E4E] leading-[20px] md:leading-[22px]'>
                                 You join our 3 months inResidence program as a business expert to run the operations or as a technical expert to further the development and validate the idea with an average monthly revenue of $1k or 10,000 users and/or an MVP of at least 150 functions.
                             </p>
                         </div>
@@ -58,7 +56,7 @@ const Founders = () => {
                                 </h1>
                             </div>
                             <h1 className='text-[20px] font-inter font-medium'>You Co-own</h1>
-                            <p className='font-inter py-4 w-[340px] h-[132px] font-normal text-[16px] text-[#4E4E4E] leading-[22px]'>
+                            <p className='font-inter py-4 font-normal w-full max-w-[340px] h-auto text-[14px] md:text-[16px] text-[#4E4E4E] leading-[20px] md:leading-[22px]'>
                                 After successful validation and demo day at the end of the EIR program, we move those with perfect fit to become co-founders of the product they validated as CEO & CTO, each owning 20% of the venture.
                             </p>
                         </div>
