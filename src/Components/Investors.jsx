@@ -12,42 +12,44 @@ const Investors = () => {
                 <strong>Disclaimer:</strong> These deal flows are a statement of our projections and may differ from stage to stage and from venture to venture. The guarantee is for deal 1, usually the first to invest.
             </p>
 
-            <div className='py-20 p-[60px] sm:px-8 md:px-10 '>
-                <p className='mt-4 text-[16px] sm:text-[20px] font-inter'>
+            <div className='py-20 sm:px-8 md:px-10 '>
+                <p className='mt-4 text-center text-[16px] sm:text-[20px] font-inter w-[354px]'>
                     <span className='font-bold'>Micro Angel Investors & Service incubators</span> (Invest from $500 & above)
                 </p>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 relative top-10'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 relative top-10 left-[50px]'>
                     <div className='h-[212px] w-[300px]'>
-                        <div className='px-8 py-4 md:px-6'>
-                            <h1 className="text-[18px] text-[#212121] font-medium font-inter">
-                                Deal 1
-                            </h1>
-                            <div className="text-gray-800 text-[13px] mt-2 font-inter leading-[20px]">
-                                <div className='flex gap-2'>
-                                    <span className='font-extrabold'>✓</span>
-                                    <p>Idea Stage: <span className='font-medium'>$5k for 5% Equity</span></p>
-                                </div>
-                                <div className='flex  gap-2'>
-                                    <span className='font-extrabold'>✓</span>
-                                    <p> Expected Revenue at This Stage: $0/mth</p>
-                                </div>
+                        <div className='flex justify-center items-center relative  py-4 md:px-6'>
+                            <div className="text-left"> {/* Keep text alignment left for larger screens */}
+                                <h1 className="text-[18px] text-[#212121] font-medium font-inter">
+                                    Deal 1
+                                </h1>
+                                <div className="text-gray-800 text-[13px] mt-2 font-inter leading-[20px]">
+                                    <div className='flex gap-2'>
+                                        <span className='font-extrabold'>✓</span>
+                                        <p>Idea Stage: <span className='font-medium'>$5k for 5% Equity</span></p>
+                                    </div>
+                                    <div className='flex gap-2'>
+                                        <span className='font-extrabold'>✓</span>
+                                        <p>Expected Revenue at This Stage: $0/mth</p>
+                                    </div>
 
-                                <div className='flex gap-2'>
-                                    <span className='font-extrabold'>✓</span>
-                                    <p>Duration of Raise: 1mth</p>
-                                </div>
+                                    <div className='flex gap-2'>
+                                        <span className='font-extrabold'>✓</span>
+                                        <p>Duration of Raise: 1mth</p>
+                                    </div>
 
-                                <div className='flex items-center gap-2'>
-                                    <span className='font-extrabold'>✓</span>
-                                    <p> Who Can Invest: People with Domain Expertise and Advisors</p>
+                                    <div className='flex items-center gap-2'>
+                                        <span className='font-extrabold'>✓</span>
+                                        <p>Who Can Invest: People with Domain Expertise and Advisors</p>
+                                    </div>
                                 </div>
-
                             </div>
                         </div>
+
                     </div>
 
                     <div className='h-[212px] w-[300px]'>
-                        <div className='px-8 py-4 md:px-6'>
+                        <div className='px-2 py-4 md:px-6'>
                             <h1 className="text-[18px] text-[#212121] font-medium font-inter">
                                 Deal 2
                             </h1>
@@ -76,7 +78,7 @@ const Investors = () => {
                     </div>
 
                     <div className='h-[212px] w-[300px]'>
-                        <div className='px-8 py-4 md:px-6'>
+                        <div className='px-2 py-4 md:px-6'>
                             <h1 className="text-[18px] text-[#212121] font-medium font-inter">
                                 Deal 3
                             </h1>
@@ -106,7 +108,7 @@ const Investors = () => {
                     </div>
 
                     <div className='h-[212px] w-[300px]'>
-                        <div className='px-8 py-4 md:px-6'>
+                        <div className='px-2 py-4 md:px-6'>
                             <h1 className="text-[18px] text-[#212121] font-medium font-inter">
                                 Deal 4
                             </h1>
@@ -141,12 +143,12 @@ const Investors = () => {
 
 
             <div className='py-2 p-[60px] sm:px-8 md:px-10'>
-                <p className='mt-2 text-[16px] sm:text-[20px] font-inter'>
+                <p className='mt-2 text-center text-[16px] sm:text-[20px] font-inter'>
                     <span className='font-bold'>Angel Investors & Venture Capital </span> (Invest from $500 & above)
                 </p>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 relative top-10'>
                     <div className='h-[212px] w-[300px]'>
-                        <div className='py-6 px-6'>
+                        <div className='py-6 px-2'>
                             <h1 className="text-[18px] text-[#212121] font-medium font-inter">
                                 Deal 5
                             </h1>
@@ -161,7 +163,7 @@ const Investors = () => {
                     </div>
 
                     <div className='h-[212px] w-[300px]'>
-                        <div className='px-8 py-4'>
+                        <div className='px-2 py-4'>
                             <h1 className="text-[18px] text-[#212121] font-medium font-inter">
                                 Deal 6
                             </h1>
@@ -176,7 +178,7 @@ const Investors = () => {
                     </div>
 
                     <div className='h-[212px] w-[300px] '>
-                        <div className='py-6 px-6'>
+                        <div className='py-4 px-2'>
                             <h1 className="text-[18px] text-[#212121] font-medium font-inter">
                                 Deal 7
                             </h1>
@@ -191,7 +193,7 @@ const Investors = () => {
                     </div>
 
                     <div className='h-[212px] w-[300px] '>
-                        <div className='px-4 py-6'>
+                        <div className='px-0 py-6'>
                             <div className="bg-black w-[270px] h-[165px]">
 
                                 <div className='px-4 py-2'>

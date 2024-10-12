@@ -8,6 +8,8 @@ import Portfolio from "./Components/Portfolio"
 import Founders from "./Components/Founders"
 import Footer from "./Components/Footer"
 import Investors from "./Components/Investors"
+import EquityJobs from "./Components/EquityJobs"
+import Blogs from "./Components/Blogs"
 import Join from "./Components/Join"
 
 
@@ -27,6 +29,8 @@ function App() {
       <Founders />
       <Join />
       <Investors />
+      <EquityJobs />
+      <Blogs />
       <Footer />
     </div>
   )
