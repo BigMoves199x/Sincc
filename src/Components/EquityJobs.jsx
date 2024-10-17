@@ -51,7 +51,7 @@ const EquityJobs = () => {
 
 
     return (
-        <div className="relative py-10 top-20">
+        <div className="relative py-10 md:py-40 top-40">
             <h1 className="text-2xl text-center font-bold mb-4">Equity jobs</h1>
             <p className="mb-4 text-center max-w-full w-[335px] h-[63px] mx-auto">See companies and startups offering equity or a mix of cash and equity for very important positions in their company</p>
             <Slider {...settings}>

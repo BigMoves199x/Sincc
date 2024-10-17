@@ -2,7 +2,7 @@ import React from 'react';
 
 const Investors = () => {
     return (
-        <div className='relative md:top-64 top-4'>
+        <div className='relative md:top-64 top-4 overflow-x-hidden'>
             <h1 className='text-center font-medium font-inter text-[20px] md:text-[56px]'>
                 SINC Investors Network
             </h1>
@@ -12,14 +12,18 @@ const Investors = () => {
                 <strong>Disclaimer:</strong> These deal flows are a statement of our projections and may differ from stage to stage and from venture to venture. The guarantee is for deal 1, usually the first to invest.
             </p>
 
-            <div className='py-20 sm:px-8 md:px-10 '>
-                <p className='mt-4 text-center text-[16px] sm:text-[20px] font-inter w-[354px]'>
+            <div className='py-20 sm:px-8 md:px-10'>
+                <p className='mt-4 text-left text-[16px] sm:text-[20px] font-inter max-w-full m-auto'>
                     <span className='font-bold'>Micro Angel Investors & Service incubators</span> (Invest from $500 & above)
                 </p>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 relative top-10 left-[50px]'>
-                    <div className='h-[212px] w-[300px]'>
-                        <div className='flex justify-center items-center relative  py-4 md:px-6'>
-                            <div className="text-left"> {/* Keep text alignment left for larger screens */}
+                <div className='w-full h-[0.10px] bg-black relative top-10'></div>
+
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 relative top-10'>
+                    {/* Deal 1 */}
+                    
+                    <div className='h-[212px] w-full max-w-[300px] m-auto'>
+                        <div className='flex justify-center items-center relative py-4 md:px-6'>
+                            <div className="text-left">
                                 <h1 className="text-[18px] text-[#212121] font-medium font-inter">
                                     Deal 1
                                 </h1>
@@ -32,12 +36,10 @@ const Investors = () => {
                                         <span className='font-extrabold'>✓</span>
                                         <p>Expected Revenue at This Stage: $0/mth</p>
                                     </div>
-
                                     <div className='flex gap-2'>
                                         <span className='font-extrabold'>✓</span>
                                         <p>Duration of Raise: 1mth</p>
                                     </div>
-
                                     <div className='flex items-center gap-2'>
                                         <span className='font-extrabold'>✓</span>
                                         <p>Who Can Invest: People with Domain Expertise and Advisors</p>
@@ -45,30 +47,27 @@ const Investors = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
 
-                    <div className='h-[212px] w-[300px]'>
+                    {/* Deal 2 */}
+                    <div className='h-[212px] w-full max-w-[300px] m-auto'>
                         <div className='px-2 py-4 md:px-6'>
                             <h1 className="text-[18px] text-[#212121] font-medium font-inter">
                                 Deal 2
                             </h1>
-                            <div className="text-gray-800 text-[13px] w-[280px] mt-2 font-inter font-normal leading-[23px]">
-
+                            <div className="text-gray-800 text-[13px] w-full max-w-[280px] mt-2 font-inter font-normal leading-[23px]">
                                 <div className='flex item-center gap-2'>
                                     <span className='font-extrabold'>✓</span>
-                                    <p > Build Stage: $25k worth of service for 10% Equity</p>
+                                    <p>Build Stage: $25k worth of service for 10% Equity</p>
                                 </div>
                                 <div className='flex item-center gap-2'>
                                     <span className='font-extrabold'>✓</span>
-                                    <p >Expected Revenue at This Stage: $100+/mth</p>
+                                    <p>Expected Revenue at This Stage: $100+/mth</p>
                                 </div>
-
                                 <div className='flex item-center gap-2'>
                                     <span className='font-extrabold'>✓</span>
-                                    <p > Duration of Raise: 1-3mths</p>
+                                    <p>Duration of Raise: 1-3mths</p>
                                 </div>
-
                                 <div className='flex item-center gap-2'>
                                     <span className='font-extrabold'>✓</span>
                                     <p>Who Can Invest: Developers, Engineers, Growth Marketers</p>
@@ -77,13 +76,13 @@ const Investors = () => {
                         </div>
                     </div>
 
-                    <div className='h-[212px] w-[300px]'>
+                    {/* Deal 3 */}
+                    <div className='h-[212px] w-full max-w-[300px] m-auto'>
                         <div className='px-2 py-4 md:px-6'>
                             <h1 className="text-[18px] text-[#212121] font-medium font-inter">
                                 Deal 3
                             </h1>
                             <div className="text-gray-800 text-[13px] mt-2 leading-[20px]">
-
                                 <div className='flex item-center gap-2'>
                                     <span className='font-extrabold'>✓</span>
                                     <p>Validation Stage: $50k for 5% Equity</p>
@@ -92,28 +91,25 @@ const Investors = () => {
                                     <span className='font-extrabold'>✓</span>
                                     <p>Expected Revenue at This Stage: $1k+/mth</p>
                                 </div>
-
                                 <div className='flex item-center gap-2'>
                                     <span className='font-extrabold'>✓</span>
                                     <p>Duration of Raise: 3-6mths</p>
                                 </div>
-
                                 <div className='flex item-center gap-2'>
                                     <span className='font-extrabold'>✓</span>
                                     <p>Who Can Invest: Everyone</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
 
-                    <div className='h-[212px] w-[300px]'>
+                    {/* Deal 4 */}
+                    <div className='h-[212px] w-full max-w-[300px] m-auto'>
                         <div className='px-2 py-4 md:px-6'>
                             <h1 className="text-[18px] text-[#212121] font-medium font-inter">
                                 Deal 4
                             </h1>
                             <div className="text-gray-800 text-[13px] mt-2 leading-[20px]">
-
                                 <div className='flex item-center gap-2'>
                                     <span className='font-extrabold'>✓</span>
                                     <p>Traction Stage: $125k worth of service for 5% Equity</p>
@@ -122,97 +118,96 @@ const Investors = () => {
                                     <span className='font-extrabold'>✓</span>
                                     <p>Expected Revenue at This Stage: $5k+/mth</p>
                                 </div>
-
                                 <div className='flex item-center gap-2'>
                                     <span className='font-extrabold'>✓</span>
                                     <p>Duration of Raise: 6-12mths</p>
                                 </div>
-
                                 <div className='flex item-center gap-2'>
                                     <span className='font-extrabold'>✓</span>
                                     <p>Who Can Invest: Media, Influencers, Celebrities, Platform Owners</p>
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
-
+                    
                 </div>
+                <div className='w-full h-[0.10px] bg-black relative top-14'></div>
             </div>
 
-
-            <div className='py-2 p-[60px] sm:px-8 md:px-10'>
-                <p className='mt-2 text-center text-[16px] sm:text-[20px] font-inter'>
+            <div className='py-2 px-4 sm:px-8 md:px-10'>
+                <p className='mt-2 text-left text-[16px] sm:text-[20px] font-inter'>
                     <span className='font-bold'>Angel Investors & Venture Capital </span> (Invest from $500 & above)
                 </p>
+
+                <div className='w-full h-[0.10px] bg-black relative top-10'></div>
+
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 relative top-10'>
-                    <div className='h-[212px] w-[300px]'>
+                    {/* Deal 5 */}
+                    <div className='h-[212px] w-full max-w-[300px] m-auto'>
                         <div className='py-6 px-2'>
                             <h1 className="text-[18px] text-[#212121] font-medium font-inter">
                                 Deal 5
                             </h1>
-
                             <div className="text-gray-800 text-[13px] mt-2 font-inter leading-[20px]">
                                 <p className=''><span >✓</span> Pre-seed Stage: <span className='font-medium'>$1.5M for 10% Equity</span></p>
                                 <p className=''><span>✓</span> Expected Revenue at This Stage: <span className='font-medium'>$50k+/mth</span></p>
                                 <p className=''><span>✓</span>Duration of Raise: <span className='font-medium'>6-18mths</span></p>
-                                <p className=''><span>✓</span>Who Can Invest: <span className='font-medium'>Angel Investors, VCs, PE, Institutions </span></p>
+                                <p className=''><span>✓</span>Who Can Invest: <span className='font-medium'>Angel Investors, VCs, PE, Institutions</span></p>
                             </div>
                         </div>
                     </div>
 
-                    <div className='h-[212px] w-[300px]'>
-                        <div className='px-2 py-4'>
+                    {/* Deal 6 */}
+                    <div className='h-[212px] w-full max-w-[300px] m-auto'>
+                        <div className='py-6 px-2'>
                             <h1 className="text-[18px] text-[#212121] font-medium font-inter">
                                 Deal 6
                             </h1>
-
-                            <div className="text-gray-800 text-[13px] w-[280px] mt-2 font-inter font-normal leading-[23px]">
-                                <p className=''><span >✓</span>Seed Stage: <span className='font-medium'>$7.5M for 20% Equity</span></p>
-                                <p className=''><span>✓</span> Expected Revenue at This Stage: <span className='font-medium'>$250k+/mth</span></p>
-                                <p className=''><span>✓</span>Duration of Raise: <span className='font-medium'>12-24mths</span></p>
-                                <p className=''><span>✓</span>Who Can Invest: <span className='font-medium'>VCs, PE, Institutions</span></p>
+                            <div className="text-gray-800 text-[13px] mt-2 leading-[20px]">
+                                <p><span>✓</span> Seed Stage: $3M for 15% Equity</p>
+                                <p><span>✓</span> Expected Revenue at This Stage: $100k+/mth</p>
+                                <p><span>✓</span> Duration of Raise: 6-18mths</p>
+                                <p><span>✓</span> Who Can Invest: VCs, Institutions</p>
                             </div>
                         </div>
                     </div>
 
-                    <div className='h-[212px] w-[300px] '>
-                        <div className='py-4 px-2'>
+                    {/* Deal 7 */}
+                    <div className='h-[212px] w-full max-w-[300px] m-auto'>
+                        <div className='py-6 px-2'>
                             <h1 className="text-[18px] text-[#212121] font-medium font-inter">
                                 Deal 7
                             </h1>
-
                             <div className="text-gray-800 text-[13px] mt-2 leading-[20px]">
-                                <p className=''><span >✓</span>IPO Stage: <span className='font-medium'>$1.5B for 20% Equity</span></p>
-                                <p className=''><span>✓</span> Expected Revenue at This Stage: <span className='font-medium'>$1M+/mth</span></p>
-                                <p className=''><span>✓</span>Duration of Raise: <span className='font-medium'>18-36mths</span></p>
-                                <p className=''><span>✓</span>Who Can Invest: <span className='font-medium'>The Public</span></p>
+                                <p><span>✓</span> Early Stage: $10M for 20% Equity</p>
+                                <p><span>✓</span> Expected Revenue at This Stage: $200k+/mth</p>
+                                <p><span>✓</span> Duration of Raise: 12-24mths</p>
+                                <p><span>✓</span> Who Can Invest: VCs, PE, Institutions</p>
                             </div>
                         </div>
                     </div>
 
-                    <div className='h-[212px] w-[300px] '>
-                        <div className='px-0 py-6'>
-                            <div className="bg-black w-[270px] h-[165px]">
-
-                                <div className='px-4 py-2'>
-                                    <h1 className='text-white text-[17px] w-[240px]'>Work with Service Incubators (SINC) to expedite your time to market</h1>
-
-                                    <div className='w-[201px] h-[49px] rounded-full bg-[#303030] mt-4'>
-                                        <h1 className='text-white absolute text-[16px] px-9 py-2.5'>Join SINC Network</h1>
-                                    </div>
-                                </div>
-
-
+                    {/* Deal 8 */}
+                    <div className='h-[212px] w-full max-w-[300px] m-auto'>
+                        <div className='py-6 px-2'>
+                            <h1 className="text-[18px] text-[#212121] font-medium font-inter">
+                                Deal 8
+                            </h1>
+                            <div className="text-gray-800 text-[13px] mt-2 leading-[20px]">
+                                <p><span>✓</span> Growth Stage: $100M for 10% Equity</p>
+                                <p><span>✓</span> Expected Revenue at This Stage: $1M+/mth</p>
+                                <p><span>✓</span> Duration of Raise: 2yrs</p>
+                                <p><span>✓</span> Who Can Invest: VCs, PE, Institutions</p>
                             </div>
                         </div>
                     </div>
 
+                    
                 </div>
+                <div className='w-full h-[0.10px] bg-black relative top-8'></div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Investors;
